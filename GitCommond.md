@@ -17,7 +17,7 @@ git --help；git help -g
 git branch -r
 
 6、查看本地和远端所有分支
-git branch -a
+git branch -aq
 
 7、Git删除本地提交记录(该命令会将本地所有提交记录删除，新的Commit作为开始的第一个Commit)：
 git update-ref -D HEAD
